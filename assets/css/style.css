@@ -1,0 +1,100 @@
+:root{
+    --primary-light: #eaf4ff;
+    --primary-dark: #157efb;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 18px;
+    max-width: 350px;
+    width: 90%;
+    margin: auto;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    padding: 10px 20px;
+}
+
+input {
+    margin: 10px 0;
+}
+
+input[type="text"], input[type="number"] {
+    border: none;
+    box-shadow: inset 0px 0px 4px 0px rgb(0 0 0 / 32%);
+    height: 25px;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-dark);
+    color: white;
+    padding: 8px 20px;
+    font-size: inherit;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+ol {
+    padding: 10px 25px 10px 35px;
+}
+
+li {
+    font-family: cursive, system-ui, sans-serif;
+    background: white;
+    margin: 15px 0;
+    border-radius: 20px;
+    padding: 5px 20px;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 12%);
+}
+
+.yellow-box {
+    background: var(--primary-light);
+    border-radius: 10px;
+    box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 12%);
+}
+
+h1 {
+    font-size: 18px;
+    padding: 12px 20px;
+    font-weight: 500;
+}
+
+h1 img {
+    background-color: white;
+    border-radius: 3px;
+    margin-right: 8px;
+    padding: 2px;
+}
+
+.footer p {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--primary-dark);
+    color: white;
+}
+
+.footer {
+    background-color: #444;
+    color: white;
+}
+.text-box {
+    padding: 1px 10px 18px 10px;
+    font-size: 16px;
+}
+
+p.view-file{
+    box-shadow: inset 0px 0px 4px 0px rgb(0 0 0 / 32%);
+    background: white;
+    padding: 5px;
+}
